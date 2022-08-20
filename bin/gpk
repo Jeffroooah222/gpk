@@ -96,7 +96,7 @@ const env = new Environment();
     help: {
       args: {min: 0, max: 0},
       params: {},
-      aliases: ['--help'],
+      aliases: ['--help'],b
       fn: async (args, params) => {
         const {stdout} = process;
 
